@@ -4,7 +4,7 @@ import {inc, dec, rnd} from '../actions';
 import { useSelector, useDispatch } from "react-redux";
 // import { bindActionCreators  } from "redux"; 
 
-const Counter = ( ) => {
+const Counter = () => {
 
     const counter = useSelector(state => state.counter);
     const dispatch = useDispatch(); 
